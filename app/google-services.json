@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463366714874",
+    "firebase_url": "https://eopole-a2b7a.firebaseio.com",
+    "project_id": "eopole-a2b7a",
+    "storage_bucket": "eopole-a2b7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463366714874:android:b4f79b3ac265282d",
+        "android_client_info": {
+          "package_name": "com.example.eopolelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463366714874-bagecare3710un88umq9ptli469ubi9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eopolelogin",
+            "certificate_hash": "2f751fb2b2c88b26442a9ce78f9a9443ef74b7bf"
+          }
+        },
+        {
+          "client_id": "463366714874-pf57bs781k5vu32d92b9g8alja2bq4bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxj9_qqclxXFYf3aTFWD9rTDFY6MioZr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463366714874-pf57bs781k5vu32d92b9g8alja2bq4bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
