@@ -1,11 +1,13 @@
 package com.example.eopolelogin;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.NonNull;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -39,6 +41,8 @@ public class Main2Activity extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+
 
     }
 
@@ -76,6 +80,24 @@ public class Main2Activity extends AppCompatActivity {
                 });
         // Showing Alert Message
         alertDialog.show();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.profile, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.mybutton) {
+                Intent intent=new Intent(this,ProfileActivity.class);
+                startActivity(intent);
+
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }
